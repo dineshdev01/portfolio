@@ -1,10 +1,10 @@
 import React from 'react';
-import "../styles/HeroSection.css";
-
+import "../styles/style.css";
 
 const HeroSection = () => {
   return (
     <header>
+      <div className='container'>
       <div className="hero-content">
         <h1>Dinesh M</h1>
         <p>Software Developer</p>
@@ -18,6 +18,7 @@ const HeroSection = () => {
           <li>Hibernate</li>
           <li>MySQL</li>
         </ul>
+      </div>
       </div>
     </header>
   );
